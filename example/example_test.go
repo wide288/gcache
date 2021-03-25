@@ -6,9 +6,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/8treenet/gcache"
-	"github.com/jinzhu/gorm"
-	_ "github.com/jinzhu/gorm/dialects/mysql"
+	"github.com/wide288/gcache"
+	"gorm.io/gorm"
+	_ "gorm.io/gorm/dialects/mysql"
 )
 
 var (

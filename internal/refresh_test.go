@@ -2,13 +2,13 @@ package internal
 
 import (
 	"encoding/json"
-	"github.com/8treenet/gcache/option"
+	"github.com/wide288/gcache/option"
 	"github.com/go-redis/redis"
 	"testing"
 	"time"
 
-	"github.com/jinzhu/gorm"
-	_ "github.com/jinzhu/gorm/dialects/mysql"
+	"gorm.io/gorm"
+	_ "gorm.io/gorm/dialects/mysql"
 )
 
 type TestEmail struct {

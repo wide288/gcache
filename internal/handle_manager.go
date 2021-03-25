@@ -7,9 +7,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/8treenet/gcache/option"
+	"github.com/wide288/gcache/option"
 
-	"github.com/jinzhu/gorm"
+	"gorm.io/gorm"
 )
 
 const (

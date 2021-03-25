@@ -1,9 +1,9 @@
 package gcache
 
 import (
-	"github.com/8treenet/gcache/internal"
-	"github.com/8treenet/gcache/option"
-	"github.com/jinzhu/gorm"
+	"github.com/wide288/gcache/internal"
+	"github.com/wide288/gcache/option"
+	"gorm.io/gorm"
 )
 
 const (

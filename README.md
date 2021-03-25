@@ -12,14 +12,14 @@
 
 #### 安装
 ```sh
-$ go get github.com/8treenet/gcache
+$ go get github.com/wide288/gcache
 ```
 #### 快速使用
 ```go
 import (
-    "github.com/8treenet/gcache"
-    "github.com/jinzhu/gorm"
-    "github.com/8treenet/gcache/option""
+    "github.com/wide288/gcache"
+    "gorm.io/gorm"
+    "github.com/wide288/gcache/option""
 )
 
 func init() {
@@ -44,8 +44,8 @@ func init() {
 - 查询条件和查询参数分离
 
 
-#### [Example](https://github.com/8treenet/gcache/blob/master/example/example_test.go)
+#### [Example](https://github.com/wide288/gcache/blob/master/example/example_test.go)
 ```shell script
     #查看 example_test.go 了解更多。
-    more src/github.com/8treenet/gcache/example/example_test.go
+    more src/github.com/wide288/gcache/example/example_test.go
 ```
