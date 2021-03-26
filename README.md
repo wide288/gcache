@@ -3,6 +3,7 @@
 
 ###### gcache是gorm的中间件，插入后gorm即刻拥有缓存。
 v1.2.0 版修改了 gorm 引用，使用 gorm.io/gorm , 版本是 gorm v2 的。
+经测试 gorm v2 暂时不支持。
 
 ## Overview
 - 即插即用
